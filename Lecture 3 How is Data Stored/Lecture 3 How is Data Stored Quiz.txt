@@ -1,0 +1,101 @@
+1. Short data type:
+
+Short data type has a minimum value of -
+
+Answer: -32,768
+
+*********************
+Solution Description:
+*********************
+
+####Short is of 16 bits. So the smallest value short can store is : -2^15.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Byte:
+
+Range of byte data type is ?
+
+Answer: -128 to 127
+
+*********************
+Solution Description:
+*********************
+
+####Range of byte(8 bits) is : -2^7 to 2^7-1
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Check for Error:
+
+Will following statement give an error ?
+
+float f = 1.4;
+
+Answer: Yes
+
+*********************
+Solution Description:
+*********************
+
+####System treats all decimal numbers as double by default. So 1.4 is stored as double(which is of 8 bytes). When we will try put a double into a float(which is of 4 bytes), it will give you error.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Figure out the Output:
+
+What will be the output of the following statement ?
+
+System.out.println('a' + 1);
+
+Answer: 98
+
+*********************
+Solution Description:
+*********************
+
+####When you add a character and an int, it will add the ASCII value of  char ‘a’ i.e 97  and int 1. So ans will be 98.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. What will be the output ?
+
+int i = 'c';
+System.out.println(i);
+
+Answer: 99
+
+*********************
+Solution Description:
+*********************
+
+#### When we put char ‘c’ into an int, its ASCII value will be put in the int i.e. 99.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. Automatic type conversion
+
+Automatic type conversion in Java takes place when :
+
+Answer: Two type are compatible and size of destination tyoe is larger than source type
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+											--x--						--x--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

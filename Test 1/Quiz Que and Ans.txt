@@ -1,0 +1,185 @@
+ And/Or Operator Java:
+
+Please select the correct statement(s) about && and || operators.
+
+*********************
+Solution of Quiz:
+*********************
+(a || b ) && c is true if c is true and either a or b is true
+a || b is true if either a or b is true
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ If & Else Java
+
+Find the output.
+
+int p = 100;
+if(p > 20) {
+    if(p < 20) {
+        System.out.print("coding");
+    }
+} else {
+    System.out.print("ninjas");
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+No output
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Guess the output
+
+class Output {
+    public static void main(String args[]) 
+    {    
+         int x , y = 1;
+         x = 10;
+         if (x != 10 && x / 0 == 0)
+             System.out.println(y);
+         else
+             System.out.println(++y);
+    } 
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+2
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ What is the output
+
+public static void main(String[] args) {
+        int a = 10, b = 20, c = 100;
+
+        if(a <= b && b != 20) {
+            System.out.println("hello");
+        }
+        else if(c >= a && c >= b) {
+            System.out.println("hi");
+        }
+        else {
+            System.out.println("hey");
+        }
+}
+
+
+*********************
+Solution of Quiz:
+*********************
+
+hi
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ What is the output
+
+public static void main(String[] args) {
+    int a = 10, b = 20, c = 100;
+
+    if(a <= b || c <= b) {
+        System.out.println("hello");
+    }
+    else if(a <= b || a <= c) {
+        System.out.println("hi");
+    }
+    else {
+        System.out.println("hey");
+    }
+}
+
+
+*********************
+Solution of Quiz:
+*********************
+
+hello
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Output Question Java
+
+Print Output -
+
+int a = 6;
+int b = 12;
+while (a < b) {
+    System.out.print("In the loop");
+    a += 2;
+    b -= 2;
+}
+
+
+*********************
+Solution of Quiz:
+*********************
+
+In the loop [2 times]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Order the code Java
+
+Write the correct order(s) of statements.
+We want to print "Coding Ninjas" 10 times.
+There can be multiple answers.
+
+1.  while(x <= 10) {
+2.  int x = 1;
+3.  x += 1;
+4.  System.out.println("Coding Ninjas");
+5.  }
+
+*********************
+Solution of Quiz:
+*********************
+
+21345
+21435
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Predict the output Java
+Send Feedback
+Figure out the output
+
+int x = 10;
+while(x >= 0) {
+    x = x - 1;
+    System.out.print(x);
+    x--;
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+97531-1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,527 @@
+ Bitwise Output
+
+Choose the correct output for the following code:
+
+public static void main (String[] args) {
+    int a=10,b=50;
+    a++;
+    --b;
+    int c=a--+b--;
+    System.out.print(++c);
+}
+
+
+
+*********************
+Solution of Quiz:
+*********************
+
+61
+
+*********************
+Solution Description:
+*********************
+
+a++,a=11.   --b,b=49.    
+    c=a--+b--=11+49=60  
+      a=10
+      b=48
+      print(++c)->print(61)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Find error
+
+Which line(s) of the following code would give an error:
+
+public static void main (String[] args) {
+    int a=10,b=20;
+    System.out.println(a+++--b);//line 1
+    System.out.println(a--+++b);//line 2
+    System.out.println(a++-++b);//line 3
+    System.out.println(a+++++b);//line 4
+}
+
+
+*********************
+Solution of Quiz:
+*********************
+
+line 2
+line 4
+
+*********************
+Solution Description:
+*********************
+
+As + operator and ++ operator have equal precedence.
+Similarly - and -- have equal precedence.
+So in line 2 +++b and in line 4 +++b gives an error.
+To solve this error we can use +(++b).
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Bitwise operator
+
+Choose the correct output of the following code:
+
+public static void main (String[] args) {
+    int a=10,b=20;
+    int c=a&b;
+    System.out.print(c);
+    int d=a|b;
+    System.out.print(d);
+    int e=a^b;
+    System.out.print(e);
+    int f=c+d+e;
+    System.out.print(~f);
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+03030-61
+
+*********************
+Solution Description:
+*********************
+
+c=10&20=0.
+d=10|20=30. 
+e=10^20=30.
+f=0+30+30=60.
+ ~f=-61.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Correct Output
+
+Choose the correct output for the given code:
+
+public static void main (String[] args) {
+    int a=10,b=-20;
+    System.out.print(a^b);
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+-26
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Bitwise Operator
+
+What will be the output ?
+
+public static void main(String args[])
+   {
+       int a = 42;
+       int b = ~a; (there is tilde sign before a)
+       System.out.print(a + " " + b);       
+   }
+
+*********************
+Solution of Quiz:
+*********************
+
+42-43
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Guess the output
+
+class Output {
+    public static void main(String args[]) 
+    {    
+         int x , y = 1;
+         x = 10;
+         if (x != 10 && x / 0 == 0)
+             System.out.println(y);
+         else
+             System.out.println(++y);
+    } 
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+2
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Guess the output
+
+class Solution {
+    public static void main(String args[]) 
+    {   
+    int x = 15;
+    int y = x++;
+    int  z = ++x;
+    System.out.println(y +" " + z);
+    }
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+15 17
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Guess the output
+
+class Solution {
+    public static void main(String args[]) 
+    {        
+         int g = 3;
+         System.out.print(++g * 8);
+    } 
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+32
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Guess the output
+
+class Solution {
+    public static void main(String args[]) 
+    {
+        int x =10;
+        int y = 20;
+        if(x++ > 10 && ++y > 20 ){
+        System.out.print("Inside if  ");
+        }else{
+        System.out.print("Inside else  ");
+        }
+        System.out.println(x +" "+y);
+     }
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+Inside else 11 20
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Guess the output
+
+class Solution {
+    public static void main(String args[]) 
+    {
+         int x = 10;
+         int y = 20;
+         if(x++ > 10 || ++y > 20 ){
+        System.out.print("Inside if  ");
+         }else{
+        System.out.print("Inside else  ");
+         }
+         System.out.println(x  + " " + y);
+    }
+}   
+
+*********************
+Solution of Quiz:
+*********************
+
+Inside if 11 21
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Correct Output
+
+Select the correct output for the following code:
+
+public static void main (String[] args) {
+    int a=5;
+    a+=5+(++a)+(a++);
+    System.out.print(a);
+} 
+
+*********************
+Solution of Quiz:
+*********************
+
+22
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Guess the Output
+
+public static void main (String[] args) {
+    int a=10;
+    a+=++a-5/3+6*a;
+    System.out.print(a);
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+86
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ For Loop
+
+How many times will the following loop run?
+
+for(int i=1;i<10;i*=2)
+{
+     System.out.println(i);
+} 
+
+*********************
+Solution of Quiz:
+*********************
+
+4
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Guess the Output
+
+Which value(s) can be used to initialize i so that the loop is finite:
+
+public static void main (String[] args) {
+    for(int i=_;i>0;i=i%3)
+    {
+        System.out.print("*");
+    }
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+729
+483
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ What is the output
+
+What will be the output the following code?
+
+for(int i = 0; i < 5; i = i + 1){
+    System.out.print(i + " ");
+    i = i + 1;
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+0 2 4
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ What is the output
+
+What will be the output the following code?
+
+for(int i = 1; i < 5; i = i + 1){
+    System.out.print(i +" ");
+    i = i - 1;
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+Infinite 1s
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ What is the output
+
+What will be the output ?
+
+for(int i = 0; i < 2; i = i + 1) {
+     for(int j = 0; j < 2; j = j + 1) {
+          if (j == 1)
+              break;
+          System.out.print(j +" ");
+      }
+ } 
+
+*********************
+Solution of Quiz:
+*********************
+
+0 0
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Guess the Output
+
+Guess the output for the following code:
+
+public static void main (String[] args) {
+    int i=0;
+    for(;;)
+    {
+        if(i==5)
+            break;
+        System.out.print(i);
+        i++;
+    }
+}
+
+
+*********************
+Solution of Quiz:
+*********************
+
+01234
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Correct Output
+
+Select the correct output for the following code:
+
+public static void main (String[] args) {
+    for(int i=7;i!=0;i--)
+    {
+        System.out.print(i--);
+    }
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+infinte loop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Find the error
+
+Which code snippet would generate an error?
+1.
+
+for(int i=1;;i++)
+    {   if(i==5)
+            break;
+        System.out.print(i);
+    }
+
+2.
+
+for(int i=1;;i++)
+    {   if(i<5)
+            System.out.print(i);
+        else 
+            break;
+    }
+
+3.
+
+for(int i=1;;i++)
+    {   if(i>5)
+        {
+            break;
+            System.out.print("break statement reached");
+        }
+        System.out.print(i);
+    }
+
+*********************
+Solution of Quiz:
+*********************
+
+3
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Skip iteration
+
+Which of these jump statements can skip processing remainder of code in its body for a particular iteration ?
+
+*********************
+Solution of Quiz:
+*********************
+
+continue
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ What is the output
+
+int i = 1;
+while(i < 5) {
+    if(i == 3) {
+        break;
+    }
+    System.out.print(i + " ");
+    i++;
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+1 2
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ What is the output
+
+int i = 1;
+while(i < 5) {
+    if(i == 3) {
+        continue;
+    }
+    System.out.print(i + " ");
+    i++;
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+1 2[ With infinte loop]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ What is the output
+
+int i = 1;
+while(i < 3) {
+    int j = 1;
+    while(j < 5) {
+        if(j == 3) {
+            break;
+        }
+        System.out.print(j + " ");
+        j++;
+    }
+    i++;
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+1 2 1 2
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ What is the output
+
+int i = 1;
+while(i < 3) {
+    int j = 0;
+    while(j < 5) {
+        j++;
+        if(j == 3) {
+            continue;
+        }
+        System.out.print(j + " ");
+    }
+    i++;
+}
+
+*********************
+Solution of Quiz:
+*********************
+
+1 2 4 5 1 2 4 5
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
